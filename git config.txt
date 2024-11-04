@@ -1,0 +1,15 @@
+git config --global user.name "DouglassRibeiro"
+
+git config --global user.email "douglasribeirodarosa@gmail.com"
+
+git config --list
+
+git init
+
+git status - verificar os arquivos
+
+git add . - adiciona todos arquivos ao repositório ou "nome do arquivo" ao invés do . para adicionar determinidado
+
+git commit -M "primeiro commit = realiza o comitê e envia junto uma mensagem"
+
+git push = envia os arquivos commitados para o repositório remoto (precisa do link oferecido pelo repositório) no caso o git Bash pediu  > git push --set-upstream https://github.com/DouglassRibeiro/MedTrail.git main
